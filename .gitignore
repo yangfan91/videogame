@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Local runtime data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Logs and temporary files
+*.log
+tmp_*
+.superpowers/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

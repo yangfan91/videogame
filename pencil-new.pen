@@ -1,0 +1,3932 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "s8Njd",
+      "x": 0,
+      "y": 0,
+      "name": "设备总览",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 135,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFF4FF",
+            "position": 0
+          },
+          {
+            "color": "#F3EEFF",
+            "position": 0.45
+          },
+          {
+            "color": "#FFE8F4",
+            "position": 1
+          }
+        ]
+      },
+      "children": [
+        {
+          "type": "frame",
+          "id": "wkuye",
+          "name": "Sidebar",
+          "width": 92,
+          "height": "fill_container",
+          "fill": "$sidebar",
+          "layout": "vertical",
+          "padding": [
+            24,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sJI6y",
+              "name": "brandDash",
+              "fill": "#FFFFFF",
+              "content": "VG",
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "DSedS",
+              "name": "navDash",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1TShO",
+                  "name": "navDash1",
+                  "width": 48,
+                  "height": 48,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FF5AA5",
+                        "position": 0
+                      },
+                      {
+                        "color": "#A85CFF",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#C94BFF55",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 20
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "06Idk",
+                      "name": "nav1Text",
+                      "fill": "#FFFFFF",
+                      "content": "控",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "77Qjd",
+                  "name": "navDash2",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#241036",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NclXo",
+                      "name": "nav2Text",
+                      "fill": "#C2A8FF",
+                      "content": "统",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BNhIn",
+                  "name": "navDash3",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#241036",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3Qal4",
+                      "name": "nav3Text",
+                      "fill": "#C2A8FF",
+                      "content": "设",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Ry8ts",
+              "name": "footerDash",
+              "fill": "#B49BCC",
+              "content": "在线 8 台",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Moe2K",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            30,
+            30,
+            30,
+            28
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IsWtQ",
+              "name": "heroDash",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFF3FB",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 10,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#F2D5FF"
+              },
+              "padding": [
+                12,
+                18
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WKSlu",
+                  "name": "heroTitleCol",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LkuZZ",
+                      "name": "heroTitle",
+                      "fill": "$ink",
+                      "content": "电玩包厢计时总控台",
+                      "fontFamily": "Geist",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tNktA",
+                      "name": "heroSubtitle",
+                      "fill": "$muted",
+                      "content": "查看设备状态、切换计时模式，并处理到时提醒与结算。",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HPJHo",
+                  "name": "heroActions",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mEfwZ",
+                      "name": "heroBtn1",
+                      "height": 42,
+                      "fill": "$panel",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "padding": [
+                        0,
+                        18
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1kUnq",
+                          "name": "heroBtn1Text",
+                          "fill": "$ink",
+                          "content": "刷新设备",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "53Srl",
+                      "name": "heroBtn2",
+                      "height": 42,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FF4D8D",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A955FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 8,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#FF4D8D33",
+                        "offset": {
+                          "x": 0,
+                          "y": 10
+                        },
+                        "blur": 20
+                      },
+                      "padding": [
+                        0,
+                        18
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aauSg",
+                          "name": "heroBtn2Text",
+                          "fill": "#FFFFFF",
+                          "content": "快速开始",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IQ2Ub",
+              "name": "summaryDash",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JxtAs",
+                  "name": "countCard",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hX6qI",
+                      "name": "countCardTitle",
+                      "fill": "$muted",
+                      "content": "当前进行中",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hGZDM",
+                      "name": "countCardValue",
+                      "fill": "$accent",
+                      "content": "03 台",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NME8g",
+                  "name": "idleCard",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jl2Of",
+                      "name": "idleCardTitle",
+                      "fill": "$muted",
+                      "content": "空闲可开机",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m0uIT",
+                      "name": "idleCardValue",
+                      "fill": "$success",
+                      "content": "05 台",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gNAHX",
+                  "name": "pauseCard",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4zxO2",
+                      "name": "pauseCardTitle",
+                      "fill": "$muted",
+                      "content": "暂停待处理",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QwsLq",
+                      "name": "pauseCardValue",
+                      "fill": "$warning",
+                      "content": "02 台",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GWbF9",
+                  "name": "alertCard",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JqqGd",
+                      "name": "alertCardTitle",
+                      "fill": "$muted",
+                      "content": "到时提醒",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gIwGb",
+                      "name": "alertCardValue",
+                      "fill": "$countdown",
+                      "content": "01 台",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ckRqT",
+              "name": "deviceSection",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uR4wH",
+                  "name": "deviceMain",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HGwDb",
+                      "name": "sectionHead",
+                      "width": "fill_container",
+                      "height": 58,
+                      "padding": [
+                        0,
+                        4
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H1sRa",
+                          "name": "sectionTitle",
+                          "fill": "$ink",
+                          "content": "设备列表",
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5NOJ8",
+                          "name": "sectionBadge",
+                          "height": 34,
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KWxhc",
+                              "name": "sectionBadgeText",
+                              "fill": "$ink",
+                              "content": "全部 11 台",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2Uqxq",
+                      "name": "deviceGrid",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "G3OMD",
+                          "name": "rowOne",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "gAy4l",
+                              "name": "baseCard",
+                              "width": "fill_container",
+                              "height": 272,
+                              "fill": "$panel",
+                              "cornerRadius": 10,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#DCE6F5"
+                              },
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#1B263433",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 8
+                                },
+                                "blur": 24
+                              },
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": [
+                                0,
+                                18,
+                                18,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "2Wa3e",
+                                  "name": "baseAccent",
+                                  "width": "fill_container",
+                                  "height": 4,
+                                  "fill": "$info"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Ayzaw",
+                                  "name": "baseHeader",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "AwCBx",
+                                      "name": "baseName",
+                                      "fill": "$ink",
+                                      "content": "01 号 PS5",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 18,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "iAG38",
+                                      "name": "baseStatus",
+                                      "height": 28,
+                                      "fill": "$soft-blue",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "IMd9X",
+                                          "name": "baseStatusText",
+                                          "fill": "$info",
+                                          "content": "使用中",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NwKst",
+                                  "name": "baseMeta",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "FSQto",
+                                      "name": "baseTypeChip",
+                                      "height": 28,
+                                      "fill": "#F7EEFF",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "HLFIm",
+                                          "name": "baseTypeText",
+                                          "fill": "$muted",
+                                          "content": "PS5 包厢",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "bBpvM",
+                                      "name": "baseModeText",
+                                      "fill": "$muted",
+                                      "content": "自由计时",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "uc4a6",
+                                  "name": "baseTimer",
+                                  "width": "fill_container",
+                                  "height": 94,
+                                  "fill": "#FFF7FF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$line"
+                                  },
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "N0U5p",
+                                      "name": "baseTime",
+                                      "fill": "$ink",
+                                      "content": "01:23:45",
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 34,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "GNeoM",
+                                      "name": "baseHint",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "已玩 1 小时 23 分，预计结算 ¥41.15",
+                                      "textAlign": "center",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "5iCSK",
+                                  "name": "baseActions",
+                                  "width": "fill_container",
+                                  "gap": 10,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "3pHAq",
+                                      "name": "baseAct1",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$accent",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "WGikY",
+                                          "name": "baseAct1Text",
+                                          "fill": "#FFFFFF",
+                                          "content": "暂停计时",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "uxqeo",
+                                      "name": "baseAct2",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$panel",
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 1,
+                                        "fill": "$line"
+                                      },
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Q6ne8",
+                                          "name": "baseAct2Text",
+                                          "fill": "$ink",
+                                          "content": "立即结算",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "6udW2",
+                              "name": "idleCardCopy",
+                              "width": "fill_container",
+                              "height": 272,
+                              "fill": "$panel",
+                              "cornerRadius": 10,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#DCE6F5"
+                              },
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#1B263433",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 8
+                                },
+                                "blur": 24
+                              },
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": [
+                                0,
+                                18,
+                                18,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "KX4Fg",
+                                  "name": "baseAccent",
+                                  "width": "fill_container",
+                                  "height": 4,
+                                  "fill": "#7A8797"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kLAfO",
+                                  "name": "baseHeader",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fortf",
+                                      "name": "baseName",
+                                      "fill": "$ink",
+                                      "content": "02 号 Switch",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 18,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "exOGU",
+                                      "name": "baseStatus",
+                                      "height": 28,
+                                      "fill": "#F7EEFF",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "5XSo6",
+                                          "name": "baseStatusText",
+                                          "fill": "#7A8797",
+                                          "content": "空闲",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "O39Go",
+                                  "name": "baseMeta",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "5no0Q",
+                                      "name": "baseTypeChip",
+                                      "height": 28,
+                                      "fill": "#F7EEFF",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "3Ac2T",
+                                          "name": "baseTypeText",
+                                          "fill": "$muted",
+                                          "content": "Switch 包厢",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "bIbez",
+                                      "name": "baseModeText",
+                                      "fill": "$muted",
+                                      "content": "等待开始",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BxXHS",
+                                  "name": "baseTimer",
+                                  "width": "fill_container",
+                                  "height": 94,
+                                  "fill": "#FFFFFF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$line"
+                                  },
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Nfdu4",
+                                      "name": "baseTime",
+                                      "fill": "$ink",
+                                      "content": "--:--:--",
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 34,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "iFLMS",
+                                      "name": "baseHint",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "当前设备空闲，可直接开始自由计时，或打开套餐倒计时。",
+                                      "textAlign": "center",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "X9KH7",
+                                  "name": "baseActions",
+                                  "width": "fill_container",
+                                  "gap": 10,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "OWtB3",
+                                      "name": "baseAct1",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$accent",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "kmxxw",
+                                          "name": "baseAct1Text",
+                                          "fill": "#FFFFFF",
+                                          "content": "自由开台",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "yfMP6",
+                                      "name": "baseAct2",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$panel",
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 1,
+                                        "fill": "$line"
+                                      },
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "6V00Q",
+                                          "name": "baseAct2Text",
+                                          "fill": "$ink",
+                                          "content": "团购套餐",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fsX9u",
+                          "name": "rowTwo",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "apYxi",
+                              "name": "pausedCardCopy",
+                              "width": "fill_container",
+                              "height": 272,
+                              "fill": "$panel",
+                              "cornerRadius": 10,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#DCE6F5"
+                              },
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#1B263433",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 8
+                                },
+                                "blur": 24
+                              },
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": [
+                                0,
+                                18,
+                                18,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "rzgJA",
+                                  "name": "baseAccent",
+                                  "width": "fill_container",
+                                  "height": 4,
+                                  "fill": "$warning"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "QfvYN",
+                                  "name": "baseHeader",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "VPWlk",
+                                      "name": "baseName",
+                                      "fill": "$ink",
+                                      "content": "03 号 Xbox",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 18,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "WJ63C",
+                                      "name": "baseStatus",
+                                      "height": 28,
+                                      "fill": "$soft-warning",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "fYwrR",
+                                          "name": "baseStatusText",
+                                          "fill": "$warning",
+                                          "content": "已暂停",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ztfyD",
+                                  "name": "baseMeta",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "vSH7U",
+                                      "name": "baseTypeChip",
+                                      "height": 28,
+                                      "fill": "#F7EEFF",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "qwlUg",
+                                          "name": "baseTypeText",
+                                          "fill": "$muted",
+                                          "content": "Xbox 包厢",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "HHWgf",
+                                      "name": "baseModeText",
+                                      "fill": "$muted",
+                                      "content": "团购套餐",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Kui4g",
+                                  "name": "baseTimer",
+                                  "width": "fill_container",
+                                  "height": 94,
+                                  "fill": "#FFF7FF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$line"
+                                  },
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "eyLDX",
+                                      "name": "baseTime",
+                                      "fill": "$warning",
+                                      "content": "00:48:12",
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 34,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "O3NTE",
+                                      "name": "baseHint",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "套餐剩余 41 分钟，当前已暂停 12 分钟，等待继续。",
+                                      "textAlign": "center",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xFHN6",
+                                  "name": "baseActions",
+                                  "width": "fill_container",
+                                  "gap": 10,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "BoE0f",
+                                      "name": "baseAct1",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$accent",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "sG2ct",
+                                          "name": "baseAct1Text",
+                                          "fill": "#FFFFFF",
+                                          "content": "继续计时",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "DgftV",
+                                      "name": "baseAct2",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$panel",
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 1,
+                                        "fill": "$line"
+                                      },
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "4YU8Q",
+                                          "name": "baseAct2Text",
+                                          "fill": "$ink",
+                                          "content": "去结账",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "02vUD",
+                              "name": "expiredCardCopy",
+                              "width": "fill_container",
+                              "height": 272,
+                              "fill": "$panel",
+                              "cornerRadius": 10,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#DCE6F5"
+                              },
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#1B263433",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 8
+                                },
+                                "blur": 24
+                              },
+                              "layout": "vertical",
+                              "gap": 14,
+                              "padding": [
+                                0,
+                                18,
+                                18,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "UCxPF",
+                                  "name": "baseAccent",
+                                  "width": "fill_container",
+                                  "height": 4,
+                                  "fill": "$accent"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "mGUNO",
+                                  "name": "baseHeader",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "aFfVN",
+                                      "name": "baseName",
+                                      "fill": "$ink",
+                                      "content": "VIP 05 号 PS5",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 18,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "UZELS",
+                                      "name": "baseStatus",
+                                      "height": 28,
+                                      "fill": "$soft-danger",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Jh8fP",
+                                          "name": "baseStatusText",
+                                          "fill": "$accent",
+                                          "content": "已到时",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "8wo4w",
+                                  "name": "baseMeta",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "l3p08",
+                                      "name": "baseTypeChip",
+                                      "height": 28,
+                                      "fill": "#F7EEFF",
+                                      "padding": [
+                                        0,
+                                        12
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "53SYY",
+                                          "name": "baseTypeText",
+                                          "fill": "$muted",
+                                          "content": "PS5 包厢",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "RcC4O",
+                                      "name": "baseModeText",
+                                      "fill": "$muted",
+                                      "content": "团购套餐",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GvH0O",
+                                  "name": "baseTimer",
+                                  "width": "fill_container",
+                                  "height": 94,
+                                  "fill": "#FFF7FF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$line"
+                                  },
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "KCbtc",
+                                      "name": "baseTime",
+                                      "fill": "$accent",
+                                      "content": "-00:16:10",
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 34,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "EPMnU",
+                                      "name": "baseHint",
+                                      "fill": "$muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "已超时 16 分钟，请尽快加时或结束结算。",
+                                      "textAlign": "center",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "YUyAa",
+                                  "name": "baseActions",
+                                  "width": "fill_container",
+                                  "gap": 10,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Lt2Su",
+                                      "name": "baseAct1",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$accent",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "AZtup",
+                                          "name": "baseAct1Text",
+                                          "fill": "#FFFFFF",
+                                          "content": "加时 30 分",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "OA8ps",
+                                      "name": "baseAct2",
+                                      "width": "fill_container",
+                                      "height": 38,
+                                      "fill": "$panel",
+                                      "stroke": {
+                                        "align": "inside",
+                                        "thickness": 1,
+                                        "fill": "$line"
+                                      },
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Y5Cou",
+                                          "name": "baseAct2Text",
+                                          "fill": "$ink",
+                                          "content": "结束结账",
+                                          "fontFamily": "Geist",
+                                          "fontSize": 12,
+                                          "fontWeight": "700"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rGUtE",
+                  "name": "sideRail",
+                  "width": 320,
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CWwHr",
+                      "name": "sideCard1",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF4FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QAO0D",
+                          "name": "railTitle1",
+                          "fill": "$ink",
+                          "content": "值班摘要",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3MChe",
+                          "name": "railBody1",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "3 台运行中\n2 台暂停待处理\n今日已完成 14 场结算",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wwygz",
+                      "name": "sideCard2",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7F0FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4iS5a",
+                          "name": "railTitle2",
+                          "fill": "$ink",
+                          "content": "待处理事项",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y444v",
+                          "name": "railBody2",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "01  VIP 05 号 PS5 / 已到时\n02  03 号 Xbox / 已暂停\n03  吧台待确认 2 笔未付款",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Fjjf0",
+                      "name": "sideCard3",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF4FB",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fF4lt",
+                          "name": "railTitle3",
+                          "fill": "$ink",
+                          "content": "状态图例",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nvyd9",
+                          "name": "legendWrap",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rUpwx",
+                              "name": "legendRow1",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "2No29",
+                                  "name": "legendDot1",
+                                  "fill": "#7A8797",
+                                  "width": 10,
+                                  "height": 10
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "m2DYm",
+                                  "name": "legendTxt1",
+                                  "fill": "$muted",
+                                  "content": "空闲，可直接开始计时",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aDZO6",
+                              "name": "legendRow2",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "b8sLz",
+                                  "name": "legendDot2",
+                                  "fill": "$info",
+                                  "width": 10,
+                                  "height": 10
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wspM6",
+                                  "name": "legendTxt2",
+                                  "fill": "$muted",
+                                  "content": "进行中，显示实时用时与费用",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8KXNx",
+                              "name": "legendRow3",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "MEIkc",
+                                  "name": "legendDot3",
+                                  "fill": "$warning",
+                                  "width": 10,
+                                  "height": 10
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "6Pdkj",
+                                  "name": "legendTxt3",
+                                  "fill": "$muted",
+                                  "content": "暂停中，保留计费状态等待恢复",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "5511W",
+                              "name": "legendRow4",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "OKKNM",
+                                  "name": "legendDot4",
+                                  "fill": "$accent",
+                                  "width": 10,
+                                  "height": 10
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "35vhM",
+                                  "name": "legendTxt4",
+                                  "fill": "$muted",
+                                  "content": "已到时，需要加时或结账处理",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ellipse",
+              "id": "3g6jt",
+              "layoutPosition": "absolute",
+              "x": 940,
+              "y": -40,
+              "name": "glowDash1",
+              "opacity": 0.28,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FF66B8",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FF66B800",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 260,
+              "height": 260
+            },
+            {
+              "type": "ellipse",
+              "id": "EH4HH",
+              "layoutPosition": "absolute",
+              "x": 720,
+              "y": 560,
+              "name": "glowDash2",
+              "opacity": 0.24,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#6B8DFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#6B8DFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 220,
+              "height": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "90R9M",
+      "x": 1520,
+      "y": 0,
+      "name": "开始与结算流程",
+      "clip": true,
+      "width": 1280,
+      "height": 960,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 135,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFF2FE",
+            "position": 0
+          },
+          {
+            "color": "#F4EEFF",
+            "position": 0.5
+          },
+          {
+            "color": "#FFEAF7",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Z2aCc",
+          "name": "flowRoot",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 34,
+          "children": [
+            {
+              "type": "frame",
+              "id": "cgXPs",
+              "name": "flowHeader",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFF3FB",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 10,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#F2D5FF"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                12,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GyAkp",
+                  "name": "flowTitle",
+                  "fill": "$ink",
+                  "content": "开始与结算流程",
+                  "fontFamily": "Geist",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "aygUP",
+                  "name": "flowSubtitle",
+                  "fill": "$muted",
+                  "content": "程序的弹窗交互围绕两件事展开：选择计时模式，以及在结束时确认付款与备注。",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4cI8O",
+              "name": "flowBody",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eWA79",
+                  "name": "startModal",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#2331421A",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 30
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "baLJn",
+                      "name": "startTitleBar",
+                      "width": "fill_container",
+                      "height": 56,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1B0A2A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#34124D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nV2TL",
+                          "name": "startTitleText",
+                          "fill": "#FFFFFF",
+                          "content": "开始计时 · 01 号 PS5",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YKVti",
+                      "name": "startBody",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": [
+                        22,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Bl8ps",
+                          "name": "startModeRow",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "7ODE8",
+                              "name": "freeModeCard",
+                              "width": "fill_container",
+                              "height": 110,
+                              "fill": "$soft-blue",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 2,
+                                "fill": "$info"
+                              },
+                              "layout": "vertical",
+                              "gap": 8,
+                              "padding": 16,
+                              "justifyContent": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kmESs",
+                                  "name": "freeModeText",
+                                  "fill": "$ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "自由计时\n先玩后结账，适合散客即时开台。",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Geist",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AE9jO",
+                              "name": "countModeCard",
+                              "width": "fill_container",
+                              "height": 110,
+                              "fill": "#F5E7FF",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 2,
+                                "fill": "$countdown"
+                              },
+                              "layout": "vertical",
+                              "gap": 8,
+                              "padding": 16,
+                              "justifyContent": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "1eeRc",
+                                  "name": "countModeText",
+                                  "fill": "$ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "团购套餐\n选择固定时长，到时自动提醒。",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Geist",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HKcN6",
+                          "name": "packageFrame",
+                          "width": "fill_container",
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uWRSi",
+                              "name": "packageTitle",
+                              "fill": "$countdown",
+                              "content": "选择套餐时长",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rU2qx",
+                              "name": "presetRow",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "6Whxm",
+                                  "name": "chip60",
+                                  "width": "fill_container",
+                                  "height": 42,
+                                  "fill": "$countdown",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gMNzA",
+                                      "name": "chip60Text",
+                                      "fill": "#FFFFFF",
+                                      "content": "60 分钟",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "97DHo",
+                                  "name": "chip90",
+                                  "width": "fill_container",
+                                  "height": 42,
+                                  "fill": "#F4EAFF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#CAA4FF"
+                                  },
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "mf4Dr",
+                                      "name": "chip90Text",
+                                      "fill": "$countdown",
+                                      "content": "90 分钟",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ztkJz",
+                                  "name": "chip120",
+                                  "width": "fill_container",
+                                  "height": 42,
+                                  "fill": "#F4EAFF",
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "#CAA4FF"
+                                  },
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "SSWpP",
+                                      "name": "chip120Text",
+                                      "fill": "$countdown",
+                                      "content": "120 分钟",
+                                      "fontFamily": "Geist",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "z3Ks1",
+                          "name": "startNoteLabel",
+                          "fill": "$ink",
+                          "content": "备注",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AR4xz",
+                          "name": "startNoteField",
+                          "width": "fill_container",
+                          "height": 92,
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "layout": "vertical",
+                          "padding": 14,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TIKkW",
+                              "name": "startNotePlaceholder",
+                              "fill": "$muted",
+                              "content": "如：团购码、赠送时长、客户要求等",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bbLnO",
+                      "name": "startFooter",
+                      "width": "fill_container",
+                      "height": 64,
+                      "fill": "$panel",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "top": 1
+                        },
+                        "fill": "$line"
+                      },
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XcrB4",
+                          "name": "startCancel",
+                          "width": 92,
+                          "height": 38,
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HIUsu",
+                              "name": "startCancelText",
+                              "fill": "$ink",
+                              "content": "取消",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BMSmJ",
+                          "name": "startGo",
+                          "width": 138,
+                          "height": 38,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#FF4D8D",
+                                "position": 0
+                              },
+                              {
+                                "color": "#A955FF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 8,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#FF4D8D33",
+                            "offset": {
+                              "x": 0,
+                              "y": 10
+                            },
+                            "blur": 20
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jBepa",
+                              "name": "startGoText",
+                              "fill": "#FFFFFF",
+                              "content": "开始 60 分钟",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2InK9",
+                  "name": "checkoutModal",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#2331421A",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 30
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tWhcS",
+                      "name": "checkoutTitleBar",
+                      "width": "fill_container",
+                      "height": 56,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1B0A2A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#34124D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b1P00",
+                          "name": "checkoutTitleText",
+                          "fill": "#FFFFFF",
+                          "content": "结束结算 · VIP 05 号 PS5",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QRLck",
+                      "name": "checkoutBody",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        22,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "a1NLi",
+                          "name": "summaryInfo",
+                          "width": "fill_container",
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dsmGe",
+                              "name": "summaryInfoTitle",
+                              "fill": "$ink",
+                              "content": "本次会话信息",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mAgv6",
+                              "name": "summaryInfoText",
+                              "fill": "$ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "开始时间  14:30:00\n实际时长  1 小时 53 分 05 秒\n套餐时长  1 小时 30 分\n超时时长  23 分 05 秒",
+                              "lineHeight": 1.55,
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nBO5l",
+                          "name": "paidRow",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "padding": [
+                            2,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "3blSP",
+                              "name": "paidBox",
+                              "width": 22,
+                              "height": 22,
+                              "fill": "$success",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VXOO7",
+                                  "name": "paidMark",
+                                  "fill": "#FFFFFF",
+                                  "content": "✓",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "7u1XB",
+                              "name": "paidText",
+                              "fill": "$ink",
+                              "content": "已付款，勾选后可选择收款渠道",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uxdL8",
+                          "name": "methodLabel",
+                          "fill": "$ink",
+                          "content": "收款方式",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bqJJD",
+                          "name": "paymentRow",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "GXbfQ",
+                              "name": "payMeituan",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "#FFF0D3",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#FFB72C"
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "KuAvC",
+                                  "name": "payMeituanText",
+                                  "fill": "#B36A00",
+                                  "content": "美团",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rZqN6",
+                              "name": "payDouyin",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "#F5F1FF",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#E0CCFF"
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HPieQ",
+                                  "name": "payDouyinText",
+                                  "fill": "$ink",
+                                  "content": "抖音",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3fZMQ",
+                              "name": "payCash",
+                              "width": "fill_container",
+                              "height": 42,
+                              "fill": "#E7FFF3",
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#8FF0C7"
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BMaRV",
+                                  "name": "payCashText",
+                                  "fill": "$success",
+                                  "content": "现金",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 13,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "hNEog",
+                          "name": "checkoutNoteLabel",
+                          "fill": "$ink",
+                          "content": "备注",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DyPQo",
+                          "name": "checkoutNoteField",
+                          "width": "fill_container",
+                          "height": 88,
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "layout": "vertical",
+                          "padding": 14,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cGzyW",
+                              "name": "checkoutNoteText",
+                              "fill": "$ink",
+                              "content": "团购补差价，赠送 10 分钟。",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u3X5X",
+                      "name": "checkoutFooter",
+                      "width": "fill_container",
+                      "height": 64,
+                      "fill": "$panel",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "top": 1
+                        },
+                        "fill": "$line"
+                      },
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ySYS8",
+                          "name": "checkoutCancel",
+                          "width": 92,
+                          "height": 38,
+                          "fill": "$panel",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$line"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Wouvs",
+                              "name": "checkoutCancelText",
+                              "fill": "$ink",
+                              "content": "返回",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oTYhD",
+                          "name": "checkoutDone",
+                          "width": 132,
+                          "height": 38,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#FF4D8D",
+                                "position": 0
+                              },
+                              {
+                                "color": "#A955FF",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 8,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#FF4D8D33",
+                            "offset": {
+                              "x": 0,
+                              "y": 10
+                            },
+                            "blur": 20
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0cqOk",
+                              "name": "checkoutDoneText",
+                              "fill": "#FFFFFF",
+                              "content": "确认结算",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ellipse",
+              "id": "xyDMe",
+              "layoutPosition": "absolute",
+              "x": 860,
+              "y": -10,
+              "name": "glowFlow1",
+              "opacity": 0.22,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#A955FF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#A955FF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 220,
+              "height": 220
+            },
+            {
+              "type": "ellipse",
+              "id": "OzmoA",
+              "layoutPosition": "absolute",
+              "x": 70,
+              "y": 520,
+              "name": "glowFlow2",
+              "opacity": 0.18,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#37C8FF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#37C8FF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 180,
+              "height": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oO5Iu",
+      "x": 2880,
+      "y": 0,
+      "name": "统计报表",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 135,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFF4FF",
+            "position": 0
+          },
+          {
+            "color": "#F4EEFF",
+            "position": 0.45
+          },
+          {
+            "color": "#FFEAF6",
+            "position": 1
+          }
+        ]
+      },
+      "children": [
+        {
+          "type": "frame",
+          "id": "sRoFf",
+          "name": "statsSidebar",
+          "width": 92,
+          "height": "fill_container",
+          "fill": "$sidebar",
+          "layout": "vertical",
+          "padding": [
+            24,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FIr3N",
+              "name": "statsBrand",
+              "fill": "#FFFFFF",
+              "content": "VG",
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "MAQv2",
+              "name": "statsNav",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3cP6N",
+                  "name": "statsNav1",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#241036",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "veaox",
+                      "name": "statsNav1Text",
+                      "fill": "#C2A8FF",
+                      "content": "控",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nNMSN",
+                  "name": "statsNav2",
+                  "width": 48,
+                  "height": 48,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FF5AA5",
+                        "position": 0
+                      },
+                      {
+                        "color": "#A85CFF",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#C94BFF55",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 20
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XWk3H",
+                      "name": "statsNav2Text",
+                      "fill": "#FFFFFF",
+                      "content": "统",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "neFPl",
+                  "name": "statsNav3",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#241036",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "poAQQ",
+                      "name": "statsNav3Text",
+                      "fill": "#C2A8FF",
+                      "content": "设",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ZkoNG",
+              "name": "statsFooter",
+              "fill": "#B49BCC",
+              "content": "记录 248 条",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3MGaP",
+          "name": "statsContent",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            30,
+            30,
+            30,
+            28
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "9hdw1",
+              "name": "statsHeader",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFF3FB",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 10,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#F2D5FF"
+              },
+              "padding": [
+                12,
+                18
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ui2Y4",
+                  "name": "statsTitleCol",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rbCyP",
+                      "name": "statsTitle",
+                      "fill": "$ink",
+                      "content": "统计报表",
+                      "fontFamily": "Geist",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l7CUa",
+                      "name": "statsSubtitle",
+                      "fill": "$muted",
+                      "content": "按日期查看场次、时长、支付状态与计时模式分布。",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8wqh4",
+                  "name": "filterBar",
+                  "height": 42,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xbAaQ",
+                      "name": "filterToday",
+                      "height": 28,
+                      "fill": "$soft-danger",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V6mdW",
+                          "name": "filterTodayText",
+                          "fill": "$accent",
+                          "content": "今天",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vpiMK",
+                      "name": "filterWeek",
+                      "height": 28,
+                      "fill": "#F7EEFF",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WtI5L",
+                          "name": "filterWeekText",
+                          "fill": "$ink",
+                          "content": "近 7 天",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PqCdA",
+                      "name": "filterMonth",
+                      "height": 28,
+                      "fill": "#F7EEFF",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KySoI",
+                          "name": "filterMonthText",
+                          "fill": "$ink",
+                          "content": "本月",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bb4JD",
+                      "name": "filterDate",
+                      "fill": "$muted",
+                      "content": "2026-04-01 至 2026-04-03",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fK6UV",
+                      "name": "filterQuery",
+                      "height": 30,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FF4D8D",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A955FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5B9Nk",
+                          "name": "filterQueryText",
+                          "fill": "#FFFFFF",
+                          "content": "查询",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "laKrR",
+              "name": "metricRowStats",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1EfqM",
+                  "name": "metricCount",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DDSPu",
+                      "name": "metricCountTitle",
+                      "fill": "$muted",
+                      "content": "总场次",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KwQUa",
+                      "name": "metricCountValue",
+                      "fill": "$ink",
+                      "content": "42",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "To4Ww",
+                  "name": "metricHours",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XmXF9",
+                      "name": "metricHoursTitle",
+                      "fill": "$muted",
+                      "content": "总时长",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4f4qQ",
+                      "name": "metricHoursValue",
+                      "fill": "$info",
+                      "content": "68.5h",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mYKtx",
+                  "name": "metricCountdown",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Cixjq",
+                      "name": "metricCountdownTitle",
+                      "fill": "$muted",
+                      "content": "套餐占比",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DiNML",
+                      "name": "metricCountdownValue",
+                      "fill": "$warning",
+                      "content": "54%",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eU3PJ",
+                  "name": "metricPaid",
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "$panel",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t7iLb",
+                      "name": "metricPaidTitle",
+                      "fill": "$muted",
+                      "content": "已付款",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nkWnN",
+                      "name": "metricPaidValue",
+                      "fill": "$success",
+                      "content": "37",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UcHTl",
+              "name": "statsBody",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "m6c4d",
+                  "name": "statsLeft",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I0vi2",
+                      "name": "deviceTableCard",
+                      "width": "fill_container",
+                      "height": 248,
+                      "fill": "$panel",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bTC1f",
+                          "name": "deviceTableTop",
+                          "width": "fill_container",
+                          "height": 50,
+                          "padding": [
+                            0,
+                            18
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "orMfK",
+                              "name": "deviceTableTitle",
+                              "fill": "$ink",
+                              "content": "设备维度总览",
+                              "fontFamily": "Geist",
+                              "fontSize": 15,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z6NVk",
+                          "name": "deviceTableHead",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#F8ECFF",
+                          "padding": [
+                            0,
+                            18
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PUSOP",
+                              "name": "deviceTableHeadText",
+                              "fill": "$muted",
+                              "content": "设备            场次     总时长      模式分布",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "r8ubp",
+                          "name": "deviceTableRows",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "01 号 PS5        8        12h 20m     套餐 5 / 自由 3\n02 号 PS5        6         9h 05m     套餐 2 / 自由 4\n03 号 Switch    10        10h 00m     套餐 3 / 自由 7",
+                          "lineHeight": 1.7,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ge8yA",
+                      "name": "historyTableCard",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$panel",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tMmXT",
+                          "name": "historyTableTop",
+                          "width": "fill_container",
+                          "height": 50,
+                          "padding": [
+                            0,
+                            18
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KKAR4",
+                              "name": "historyTableTitle",
+                              "fill": "$ink",
+                              "content": "历史记录",
+                              "fontFamily": "Geist",
+                              "fontSize": 15,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bwk93",
+                          "name": "historyTableHead",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#F8ECFF",
+                          "padding": [
+                            0,
+                            18
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IfCyn",
+                              "name": "historyTableHeadText",
+                              "fill": "$muted",
+                              "content": "设备      模式      开始时间           时长      付款      备注",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 12,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "cqd7h",
+                          "name": "historyRows",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "VIP 05    套餐      2026-04-03 14:30    1h53m    已付      团购补差价\n03 号 Xbox 套餐      2026-04-03 13:12    0h48m    未付      暂停待续\n02 号 PS5  自由      2026-04-03 11:45    2h06m    已付      现金\n01 号 PS5  自由      2026-04-03 10:20    1h18m    已付      美团",
+                          "lineHeight": 1.75,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nfRfL",
+                  "name": "statsRail",
+                  "width": 320,
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qEqyt",
+                      "name": "paymentSummaryCard",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF4FB",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5qPq9",
+                          "name": "paymentTitle",
+                          "fill": "$ink",
+                          "content": "支付状态",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ci6FS",
+                          "name": "paymentBody",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "已付款 37\n未付款 5\n备注更新 18",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0GJwW",
+                      "name": "modeSummaryCard",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7F0FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$line"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pEaCu",
+                          "name": "modeTitle",
+                          "fill": "$ink",
+                          "content": "模式摘要",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ms8Us",
+                          "name": "modeBody",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "团购套餐 23\n自由计时 19\n查询区间 2026-04-01 至 2026-04-03",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ellipse",
+              "id": "KXzIp",
+              "layoutPosition": "absolute",
+              "x": 1020,
+              "y": 18,
+              "name": "glowStats1",
+              "opacity": 0.22,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FF4D8D",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FF4D8D00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 220,
+              "height": 220
+            },
+            {
+              "type": "ellipse",
+              "id": "19BqD",
+              "layoutPosition": "absolute",
+              "x": 760,
+              "y": 660,
+              "name": "glowStats2",
+              "opacity": 0.16,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#9B5CFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#9B5CFF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 180,
+              "height": 180
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": "#FF4D8D"
+    },
+    "accent-dark": {
+      "type": "color",
+      "value": "#D93673"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#F7F0FF"
+    },
+    "countdown": {
+      "type": "color",
+      "value": "#9B5CFF"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Microsoft YaHei UI"
+    },
+    "font-data": {
+      "type": "string",
+      "value": "Consolas"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Microsoft YaHei UI"
+    },
+    "info": {
+      "type": "color",
+      "value": "#37C8FF"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#24173A"
+    },
+    "line": {
+      "type": "color",
+      "value": "#E7D9FF"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#7F6E9F"
+    },
+    "panel": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "sidebar": {
+      "type": "color",
+      "value": "#15071F"
+    },
+    "soft-blue": {
+      "type": "color",
+      "value": "#E8F7FF"
+    },
+    "soft-danger": {
+      "type": "color",
+      "value": "#FFE1EC"
+    },
+    "soft-success": {
+      "type": "color",
+      "value": "#DDFCEF"
+    },
+    "soft-warning": {
+      "type": "color",
+      "value": "#FFF1CF"
+    },
+    "success": {
+      "type": "color",
+      "value": "#31D89A"
+    },
+    "warning": {
+      "type": "color",
+      "value": "#FFB72C"
+    }
+  }
+}
